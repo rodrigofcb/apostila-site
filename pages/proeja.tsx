@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-export default function ldb() {
+export default function proeja() {
   return (
     <>
       <Head>
-        <title>Lei de Diretrizes e Bases da Educação Nacional (LDB)</title>
+        <title>Educação de Jovens e Adultos – PROEJA</title>
       </Head>
       <main className="max-w-4xl mx-auto px-4 py-12 text-lg leading-relaxed">
-        <h1 className="text-3xl font-bold mb-6">Lei de Diretrizes e Bases da Educação Nacional (LDB)</h1>
+        <h1 className="text-3xl font-bold mb-6">Educação de Jovens e Adultos – PROEJA</h1>
         <p>Conteúdo em breve...</p>
       </main>
     </>
