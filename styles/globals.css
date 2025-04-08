@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ajuste global da tipografia para melhor leitura em celulares */
+html {
+  font-size: 18px;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Espaçamento extra entre os itens de listas (ex: links) */
+ul li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Tornar links mais fáceis de clicar */
+a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Suporte a modo escuro */
+body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
